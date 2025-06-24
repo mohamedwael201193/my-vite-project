@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.container {
+  @apply mx-auto  lg:w-[85%];
+}
+.form-input {
+  @apply border-b-1 border-b-gray-300 rounded-lg p-2 focus:outline-none focus:border-b-blue-500 transition-colors duration-300 w-1/2;
+}
